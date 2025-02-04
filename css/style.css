@@ -9896,6 +9896,7 @@ h5 + .list-popular-product {
 .product-big {
 	position: relative;
 	text-align: left;
+	border-radius: 15px;
 }
 
 .product-big .unit {
@@ -9927,6 +9928,8 @@ h5 + .list-popular-product {
 	position: relative;
 	overflow: hidden;
 	display: block;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .product-big-title {
@@ -10040,6 +10043,7 @@ h5 + .list-popular-product {
 		width: auto;
 		height: auto;
 		max-width: none;
+		border-radius: 15px;
 	}
 	@supports (object-fit: cover) {
 		.product-big-figure img {
@@ -17453,6 +17457,12 @@ html.rd-navbar-fixed-linked .page {
 .swiper-container-vertical > .swiper-wrapper {
 	flex-direction: column;
 }
+
+.swiper-slide-caption h6,
+.swiper-slide-caption h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+}
+
 
 .swiper-wrapper {
 	position: relative;

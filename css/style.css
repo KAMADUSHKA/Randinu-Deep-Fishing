@@ -8951,6 +8951,12 @@ textarea.textarea-lg {
 	background: #01b3a7;
 }
 
+.animate-item_fadeOutScale img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
 /**
 *
 * Card
